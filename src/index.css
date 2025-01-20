@@ -1,0 +1,14 @@
+#main-container{
+  height:100%;
+  width:100%;
+  background-color: rgb(32, 32, 98);
+}
+#navbar{
+  width:400px;
+  height:35px;
+  position: absolute;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* margin-top:25px; */
+}
