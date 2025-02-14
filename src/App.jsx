@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavInput  inputText={inputText} setinputText={setinputText} todos={todos} setTodos={setTodos}/>
-      <Todoinput todos={todos} />
+      <Todoinput todos={todos} setTodos={setTodos} setinputText={setinputText}/>
     </>
   )
 }

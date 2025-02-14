@@ -33,3 +33,44 @@ body{
 .para{
   color:white;
 }
+.list-items{
+  margin-top: 10px;
+  width:500px;
+  height:35px;
+  border:1px solid white;
+  list-style-type: none;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:10px;
+}
+/* .buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.Edit-btn{
+  width:40px;
+  height:18px;
+  text-align: center;
+  font-size: 12px;
+  background-color: yellow;
+  color:black;
+  margin-right: 12px;
+}
+.delete-btn{
+  width:40px;
+  height:18px;
+  text-align: center;
+  font-size: 12px;
+  background-color: red;
+  color:white;
+  margin-right: 12px;
+}
+/* .store-todo{
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
