@@ -16,7 +16,6 @@ function NavInput({inputText,setinputText,todos,setTodos}) {
       setinputText('')
     }
   }
-  console.log(todos)
 
   return (
     <div className="input-box">
